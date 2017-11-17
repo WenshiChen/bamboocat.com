@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="robots" content="all,follow">
+    <meta name="googlebot" content="index,follow,snippet,archive">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Obaju e-commerce template">
+    <meta name="author" content="Ondrej Svestka | ondrejsvestka.cz">
+    <meta name="keywords" content="">
+
+    <title>
+        604 - Powered by Bamboocat CMS X1
+    </title>
+
+    <meta name="keywords" content="">
+    <link href='http://fonts.googleapis.com/css?family=Roboto:400,500,700,300,100' rel='stylesheet' type='text/css'>
+
+    <!-- styles -->
+    <link href="static/css/font-awesome.css" rel="stylesheet">
+    <link href="static/css/bootstrap.min.css" rel="stylesheet">
+    <link href="static/css/animate.min.css" rel="stylesheet">
+    <link href="static/css/owl.carousel.css" rel="stylesheet">
+    <link href="static/css/owl.theme.css" rel="stylesheet">
+    
+
+    <!-- theme stylesheet -->  
+    
+    <!-- your stylesheet with modifications -->
+    <link href="static/css/custom.css" rel="stylesheet">
+
+
+    <script src="static/js/respond.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.js"
+    integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+    crossorigin="anonymous"></script>
+
+    <link rel="shortcut icon" href="../static/themes/default/favicon.png">
+    <script></script>
+</head>
+
+<body>
+    <div id="top">
+    <!--shopping-list-->
+        <div class="shopping-list col-md-12" style="display: none;">
+            <div class="shopping-list-item col-md-10">
+                <div class="shopping-item-card col-md-2">
+                    <img src="img/item.jpg">
+                    <div class="item-card-info">
+                        <span class="price">NT$1,139</span>
+                        <span class="quantity">數量:1</span>
+                    </div> 
+                </div>
+
+                <div class="shopping-item-card col-md-2">
+                    <img src="img/item.jpg">
+                    <div class="item-card-info">
+                        <span class="price">NT$1,139</span>
+                        <span class="quantity">數量:1</span>
+                    </div> 
+                </div>
+
+                <div class="shopping-item-card col-md-2">
+                    <img src="img/item.jpg">
+                    <div class="item-card-info">
+                        <span class="price">NT$1,139</span>
+                        <span class="quantity">數量:1</span>
+                    </div> 
+                </div>
+            </div>
+
+            <div class="shopping-list-button col-md-2">
+                <button class="check-shppingcart" onclick="javascript:location.href='cart.html'">查看購物車</button>
+                <button class="order" onclick="javascript:location.href='go-order.html'">前往結帳</button>
+            </div>
+        </div>
+
+        <div class="container top-header" >   
+            <div class="header col-md-12 col-xs-12" style="height: 25px;">
+                <ul class="menu">
+                    <li><a href="login-registered.html">登入</a></li>
+                    <li><a href="login-registered.html">註冊</a></li>
+                    <li><a href="member.html">會員中心</a></li>
+                </ul>
+              
+                <div id="search_form" class="col-sm-8">
+                    <span style="padding: 15px;">熱門搜尋:<a href="#">乾洗髮</a></span>
+                        <form style="float: left;width: auto" id="search-header" action="/product/product" class="navbar-form pull-right" method="get" accept-charset="utf-8">
+                            <input value="" name="s" placeholder="SEARCH" class="search-form_it" type="text">
+                            <i class="fa fa-search" aria-hidden="true" style="position: absolute;right: 14%;top: 33%;"></i>
+                        </form>
+                </div>
+            </div>         
+            <div class="col-md-6 col-xs-6" data-animate="fadeInDown">               
+                    <!-- BEGIN LOGO -->
+                <a href="index_v3.html">
+                    <div class="logo pull-left" style="color: #87aceb;">
+                        <h2>604 貿易有限公司</h2>
+                    </div>
+                </a>
+                    <!-- END LOGO -->           
+            </div>  
+            <div class="col-md-offset-3 col-md-3 col-xs-6" data-animate="fadeInDown" id="sign">        
+                <div class="shopping-cart col-sm-6 col-md-offset-6">
+                    <i class="fa fa-shopping-cart" style="padding:0px 10px;font-size: 200%;"></i>
+                    <span id="id_top_shopping_car_amount" style="font-size:16px;">0</span>個商品
+                </div>
+            </div>  
+        </div>  
+        <div class="navbar navbar-default yamm" role="navigation" id="navbar">
+                <div class="container bar">
+                    <div class="navbar-header" style="width:100%;">
+                        <div class="collapse navbar-collapse" style="width: 100%;padding: 0px;">
+                            <ul class="nav navbar-nav" style="width: 100%;">
+                                <li class="active" style="display: block; width: 5%;" id="logo">
+                                    <a data-toggle="tab" href="#home" style="color: cornflowerblue;font-size: 20px;">604</a></li>
+                                <li class="active"><a href="product-list.html">所有產品</a></li>
+                                <li class="active"><a href="product-list.html">熱門產品</a></li>
+                                <li class="active"><a href="product-list.html">限時特價</a></li>
+                                <li class="active"><a href="product-list.html">乾洗髮</a></li>
+                                <li class="active"><a href="product-list.html">底妝</a></li>
+                                <li class="active"><a href="product-list.html">彩妝</a></li>
+                                <li class="active"><a href="product-list.html">保養</a></li>
+                                <li class="active"><a href="product-list.html">美甲</a></li>
+                                <li class="active"><a href="product-list.html">彩妝工具</a></li>
+                                <li class="active"><a href="product-list.html">生活小物</a></li>
+                                <li class="active" style="display: block; width: 5%;" id="shopping">
+                                <a data-toggle="tab" href="#menu2" style="padding: 13px;"><i class="fa fa-shopping-cart" style="font-size: 160%;"></i></a></li>
+                            </ul>
+                        </div>
+
+                        
+                    </div>
+                </div>
+        </div>
+
+        <div class="navbar navbar-default yamm" role="navigation" id="navbar-mobile" >
+                        <div class="container">                             
+                            <div class="navbar-header" style="width:100%;">
+                                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span> 
+                                </button>
+                                <h3 class="logo pull-left" id="mobile-logo" style="color: white;">604</h3>
+                                <div class="mobile-menu hidden-sm hidden-md hidden-lg" id="myNavbar">
+                                        <ul class="nav m_navbar-nav" style="width: 100%;">
+                                        <li class="m_active"><a href="product-list.html">登入</a></li>
+                                        <li class="m_active"><a href="product-list.html">所有產品</a></li>
+                                        <li class="m_active"><a href="product-list.html">熱門產品</a></li>
+                                        <li class="m_active"><a href="product-list.html">限時特價</a></li>
+                                        <li class="m_active"><a href="product-list.html">乾洗髮</a></li>
+                                        <li class="m_active"><a href="product-list.html">底妝</a></li>
+                                        <li class="m_active"><a href="product-list.html">彩妝</a></li>
+                                        <li class="m_active"><a href="product-list.html">保養</a></li>
+                                        <li class="m_active"><a href="product-list.html">美甲</a></li>
+                                        <li class="m_active"><a href="product-list.html">彩妝工具</a></li>
+                                        <li class="m_active"><a href="product-list.html">生活小物</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+        </div>
+
+            </div>
+            </div>
+            
+    </div>        
+    
+
+
+    <div class="container" id="all">
+    <!-- MAIN SLIDER -->
+        <div class="member-center col-md-12 col-xs-12">              
+            <div class="page-title col-md-12 col-xs-12">會員中心</div>
+
+            <div class="member-content col-md-12 col-xs-12"> 
+                <div class="search-left-side col-md-3">
+                    <ul class="nav">
+                        <li><a href="member.html">會員資料</a></li>
+                        <li><a href="order.html">消費紀錄</a></li>
+                        <li><a href="password.html">密碼修改</a></li>
+                    </ul>
+                </div>
+
+            
+                <div class="member col-md-9 col-xs-12">
+                 <h3>會員資料</h3>
+                    <div class="row">
+                        <div class="col-md-2 member-text">
+                            <p>帳號</p>
+                        </div>
+                         <div class="col-md-8">
+                            <span>wwwww123</span>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-2 member-text">
+                            <p>密碼</p>
+                        </div>
+                        <div class="col-md-8">
+                            <span>********</span>
+                        </div>
+                    </div>
+                    
+                    <div class="row">
+                       <div class="col-md-2 member-text">
+                            <p>姓名</p>
+                        </div>
+                         <div class="col-md-8">
+                            <span>Jas</span>
+                        </div>
+                    </div>
+                    <div class="row">
+                       <div class="col-md-2 member-text">
+                            <p>E-mail</p>
+                        </div>
+                         <div class="col-md-8">
+                            <span>123@gmail.com</span>
+                        </div>
+                    </div>
+
+                    <div class="submit" style="text-align: center;"> 
+                        <input class="btn btn-default btn-primary" type="submit" value="修改資料">
+                    </div>
+                </div>
+
+
+            </div> 
+
+            </div>
+        </div>
+
+
+        
+        <hr>
+    </div>
+
+        
+        <div class="col-md-12 col-xs-12" style="margin: 30px 0px; border-top: 1px solid #eee;">
+                <div class="container row">
+                    <div class="info col-md-4 col-sm-4 col-xs-4">
+                        <h4>專人服務</h4>
+
+                        <ul>
+                            <li><a href="/page/about">專人服務</a>
+                            </li>
+                        </ul>
+
+                    </div>
+                    <!-- /.col-md-3 -->
+
+                    <div class="info col-md-4 col-sm-4 col-xs-4">
+
+                        <h4>粉絲專頁</h4>
+                            <p class="social">
+                            <a href="https://www.facebook/pages/{{index .Options "Facebook"}}" class="facebook external" data-animate-hover="shake"><i class="fa fa-facebook"></i></a>
+                            <a href="https://twitter.com/{{index .Options "Twitter"}}" class="twitter external" data-animate-hover="shake"><i class="fa fa-twitter"></i></a>
+                            <a href="https://www.instagram.com/{{index .Options "Instagram"}}" class="instagram external" data-animate-hover="shake"><i class="fa fa-instagram"></i></a>
+                            <a href="https://plus.google.com/{{index .Options "GooglePlus"}}" class="gplus external" data-animate-hover="shake"><i class="fa fa-google-plus"></i></a>
+                            <a href="mailto:{{index .Options "Email"}}" class="email external" data-animate-hover="shake"><i class="fa fa-envelope"></i></a>
+                        </p>
+                        </ul>
+                    </div>
+                    <div class="info col-md-4 col-sm-4 col-xs-4">
+                        <h4>客戶服務</h4>
+                        
+
+
+                    </div>
+                    <!-- /.col-md-3 -->
+
+                </div>
+                <!-- /.row -->
+
+    </div>
+    </div>   
+
+    
+    
+            <!-- /.container -->
+    </div>
+
+    <div id="copyright col-md-12 col-xs-12" style="background-color:#ececec;">
+            <div class="container col-md-12 col-xs-12" style="background-color:  #ececec;margin-bottom: 0px; padding: 5px;">
+                <div class="col-md-6 col-xs-6">
+                    <p class="pull-left">© 2017 {{index .Options "Website"}}.</p>
+
+                </div>
+                <div class="col-md-6 col-xs-6">
+                    <p class="pull-right">Powered by  <a href="https://www.bamboocat.com">Bamboocat CMS</a>  X1
+                    </p>
+                </div>
+            </div>
+    </div>
+
+    <div id="id_fixed_right_bottom">
+        <div class="scroll_top_button" onclick="to_scroll_top()">
+            <div class="this_icon"><i class="fa fa-chevron-up"></i></div>
+        </div>
+    </div>
+
+
+    <script src="static/js/jquery-1.11.0.min.js"></script>
+    <script src="static/js/bootstrap.min.js"></script>
+    <script src="static/js/jquery.cookie.js"></script>
+    <script src="static/js/waypoints.min.js"></script>
+    <script src="static/js/modernizr.js"></script>
+    <script src="static/js/bootstrap-hover-dropdown.js"></script>
+    <script src="static/js/owl.carousel.min.js"></script>
+    <script src="static/js/front.js"></script>
+</body>
+
+
+</html>
