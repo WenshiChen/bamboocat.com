@@ -8,7 +8,7 @@ public function index2($offset=1){
    
 
   $query['data']=  $this->Publicmodels->testproduct(2);
-  $total_rows=$this->Publicmodels->count();
+  $total_rows=$this->Publicmodels->TEST();
 
     $config["full_tag_open"] = '<ul class="pagination">';
     $config["full_tag_close"] = '</ul>';  
